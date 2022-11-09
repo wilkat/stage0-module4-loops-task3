@@ -12,6 +12,11 @@ public class DigitsSum {
 
             t = t/10;
         }
-        System.out.println(sum);
+        if(sum < 0) {
+            System.out.println(sum*-1);
+        } else {
+            System.out.println(sum);
+        }
+
     }
 }
