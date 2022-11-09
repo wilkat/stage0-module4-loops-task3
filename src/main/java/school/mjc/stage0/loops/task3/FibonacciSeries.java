@@ -6,8 +6,8 @@ public class FibonacciSeries {
         int f2 = 1;
         int f3;
 
-        for(int i = 0; i <lastFibonacci; i++) {
-            if(i == 0) {
+        for (int i = 0; i < lastFibonacci; i++) {
+            if (i == 0) {
                 f1 = 0;
                 System.out.println(f1);
             } else if (i == 1) {
@@ -19,5 +19,6 @@ public class FibonacciSeries {
                 f2 = f3;
                 System.out.println(f3);
             }
+        }
     }
 }
